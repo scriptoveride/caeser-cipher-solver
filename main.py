@@ -1,7 +1,7 @@
 import string
 
 shift = 0
-words = ["was", "that", "with", "this", "cipher", "hello", "and", "test", ]  # Common words to the program to look out for 
+words = ["was", "that", "with", "this", "cipher", "hello", "and", "test", ]  # Common words for the program to look out for 
 
 print(
 	'''
