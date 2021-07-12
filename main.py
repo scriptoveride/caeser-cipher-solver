@@ -16,14 +16,14 @@ print(
  	'''
 	)
 
-plain = input("enter you cipher: ")
-plain = plain.lower()
+text = input("enter you cipher: ")
+text = text.lower()
 print("\n")
 for i in range(26):
     alphabet = string.ascii_lowercase
     shifted = alphabet[shift:] + alphabet[:shift]
     table = str.maketrans(alphabet, shifted)
-    encrypted = plain.translate(table)
+    encrypted = text.translate(table)
     if any(word in encrypted.lower() for word in words):
         print(shift, " ", encrypted, "      POSSIBLE ANSWER")
         shift += 1
