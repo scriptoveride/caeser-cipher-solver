@@ -16,7 +16,7 @@ print(
  	'''
 	)
 
-text = input("enter you cipher: ")
+text = input("Enter your cipher: ")
 text = text.lower()
 print("\n")
 for i in range(26):
